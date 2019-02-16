@@ -43,6 +43,7 @@
     <Compile Include="Liskov\BaseEmployee.cs" />
     <Compile Include="Liskov\SumCalculator\SumCalculator.cs" />
     <Compile Include="Liskov\SumCalculator\EvenNumbersSumCalculator.cs" />
+    <Compile Include="Liskov\SumCalculator\Calculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Liskov\" />

@@ -11,7 +11,7 @@ namespace SumCalculatorTest
         {
             var numbers = new int[] { 5, 7, 9, 8, 1, 6, 4 };
 
-            SumCalculator sum = new SumCalculator(numbers);
+            Calculator sum = new SumCalculator(numbers);
             Assert.AreEqual(sum.Calculate(), 40);
 
             EvenNumbersSumCalculator evenSum = new EvenNumbersSumCalculator(numbers);
@@ -23,7 +23,7 @@ namespace SumCalculatorTest
         {
             var numbers = new int[] { 5, 7, 9, 8, 1, 6, 4 };
 
-            SumCalculator sum = new EvenNumbersSumCalculator(numbers);
+            Calculator sum = new EvenNumbersSumCalculator(numbers);
             Assert.AreEqual(sum.Calculate(), 18);
 
 
