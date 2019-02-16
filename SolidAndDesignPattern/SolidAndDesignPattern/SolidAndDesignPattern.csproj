@@ -37,6 +37,10 @@
     <Compile Include="Liskov\Employee.cs" />
     <Compile Include="Liskov\Manager.cs" />
     <Compile Include="Liskov\CEO.cs" />
+    <Compile Include="Liskov\IEmployee.cs" />
+    <Compile Include="Liskov\IManager.cs" />
+    <Compile Include="Liskov\IManaged.cs" />
+    <Compile Include="Liskov\BaseEmployee.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Liskov\" />
