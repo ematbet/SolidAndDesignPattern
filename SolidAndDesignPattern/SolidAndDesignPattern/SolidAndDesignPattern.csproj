@@ -41,9 +41,12 @@
     <Compile Include="Liskov\IManager.cs" />
     <Compile Include="Liskov\IManaged.cs" />
     <Compile Include="Liskov\BaseEmployee.cs" />
+    <Compile Include="Liskov\SumCalculator\SumCalculator.cs" />
+    <Compile Include="Liskov\SumCalculator\EvenNumbersSumCalculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Liskov\" />
+    <Folder Include="Liskov\SumCalculator\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
