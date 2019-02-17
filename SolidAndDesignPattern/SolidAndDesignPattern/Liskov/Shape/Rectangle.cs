@@ -1,16 +1,16 @@
 ﻿using System;
 namespace SolidAndDesignPattern.Liskov.Shape
 {
-    public class Rectangle
+    public class Rectangle : Shape
     {
-        public virtual float Width {get; set;}
-        public virtual float Heigth { get; set; }
+        public float Width {get; set;}
+        public float Heigth { get; set; }
 
-        public float Area {
-            get
-            {
-                return Width * Heigth;
-            }
+
+
+        public override float Area()
+        {
+            return Width * Heigth;
         }
     }
 }

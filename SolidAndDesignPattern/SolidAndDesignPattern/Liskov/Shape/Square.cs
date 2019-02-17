@@ -1,32 +1,13 @@
 ﻿using System;
 namespace SolidAndDesignPattern.Liskov.Shape
 {
-    public class Square : Rectangle
+    public class Square : Shape
     {
-        private float _width;
-        private float _height;
+        public float Edge {get; set; }
 
-        public override float Width
+        public override float Area()
         {
-
-            get { return _width; }
-            set
-            {
-                _width = value;
-                _height = value;
-
-            }
-        }
-
-        public override float Heigth {
-
-            get { return _height; }
-            set
-            {
-                _height = value;
-                _width = value;
-
-            }
+            return Edge * Edge;
         }
     }
 }

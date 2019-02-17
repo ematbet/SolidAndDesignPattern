@@ -49,6 +49,7 @@
     <Compile Include="Liskov\Birds\Ostrich.cs" />
     <Compile Include="Liskov\Shape\Rectangle.cs" />
     <Compile Include="Liskov\Shape\Square.cs" />
+    <Compile Include="Liskov\Shape\Shape.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Liskov\" />

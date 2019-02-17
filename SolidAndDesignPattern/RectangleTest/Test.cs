@@ -12,16 +12,16 @@ namespace RectangleTest
             Rectangle sut = new Rectangle();
             sut.Heigth = 3;
             sut.Width = 7;
-            Assert.AreEqual(21, sut.Area);
+            Assert.AreEqual(21, sut.Area());
         }
 
         [Test]
         public void TestWithSquare()
         {
-            Rectangle sut = new Square();
-            sut.Heigth = 3;
-            sut.Width = 7;
-            Assert.AreEqual(21, sut.Area); //This test will fail. Area equals 49.
+            Shape sut = new Square();
+            //sut.Heigth = 3;
+            //sut.Width = 7;
+            Assert.AreEqual(21, sut.Area()); //This test will fail. Area equals 49.
         }
     }
 }
