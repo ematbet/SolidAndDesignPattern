@@ -44,10 +44,17 @@
     <Compile Include="Liskov\SumCalculator\SumCalculator.cs" />
     <Compile Include="Liskov\SumCalculator\EvenNumbersSumCalculator.cs" />
     <Compile Include="Liskov\SumCalculator\Calculator.cs" />
+    <Compile Include="Liskov\Birds\Bird.cs" />
+    <Compile Include="Liskov\Birds\Duck.cs" />
+    <Compile Include="Liskov\Birds\Ostrich.cs" />
+    <Compile Include="Liskov\Shape\Rectangle.cs" />
+    <Compile Include="Liskov\Shape\Square.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Liskov\" />
     <Folder Include="Liskov\SumCalculator\" />
+    <Folder Include="Liskov\Birds\" />
+    <Folder Include="Liskov\Shape\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
